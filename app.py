@@ -29,6 +29,6 @@ def submit():
     df.to_csv('Data.csv')
     from app_qr_gen  import function2
     function2()
-    return "Thank you! you will get your ticket on your email"
+    return "Thank you! you will get your ticket on your register email"
 
 app.run(host='0.0.0.0', port=4000, debug=True)
